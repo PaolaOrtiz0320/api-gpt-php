@@ -1,0 +1,70 @@
+/* 🌑 Fondo negro */
+body {
+    background-color: #111;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+/* 📌 Encabezado y título con efecto neón */
+.bg-orange {
+    background-color: #ff8000 !important;
+    padding: 15px 0;
+}
+
+.tittle {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #ffcc00;
+    text-shadow: 0 0 5px #ffcc00, 0 0 10px #ff9900, 0 0 20px #ff8000;
+    font-family: 'Orbitron', sans-serif; /* Fuente futurista */
+    letter-spacing: 2px;
+}
+
+/* 🎤 Tarjeta con estilo mejorado */
+.card {
+    border: 2px solid #ff8000;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: #222;
+    box-shadow: 0px 4px 10px rgba(255, 128, 0, 0.5);
+}
+
+/* 🎙 Imagen del micrófono */
+.card-img-top {
+    width: 6rem;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* 🎙 Animación del micrófono */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+.mic-animation {
+    animation: pulse 2s infinite;
+}
+
+/* 🟠 Botón con efecto */
+.btn-orange {
+    background-color: #ff8000;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-orange:hover {
+    background-color: #ff9900;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(255, 153, 0, 0.8);
+}
+
+/* 📌 Espaciado en el footer */
+footer {
+    margin-top: 30px;
+}
