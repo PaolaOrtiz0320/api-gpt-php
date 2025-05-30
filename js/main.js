@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Función para enviar la orden reconocida al servidor
     function enviarComando(comando) {
-        fetch("http://44.211.60.137/api-gpt-php/endpoints/chat.php", {
+        fetch("http://44.201.66.221/api-gpt-php/endpoints/chat.php", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ message: comando })
